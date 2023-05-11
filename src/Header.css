@@ -1,0 +1,10 @@
+header .boxes{
+    display:grid;
+  grid-template-columns: 1fr 1fr;
+      margin: 40px 120px;
+
+}
+header .womanWithLaptop{
+    width: 567px;
+height: 511px;
+}
