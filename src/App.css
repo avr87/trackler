@@ -1,4 +1,10 @@
 body {
   background: #FFFFFF;
   font-family: "Lato", sans-serif;
+  overflow-x:hidden;
+}
+.container{
+  max-width:1680px;
+  margin: 0 auto;
+  padding: 0px;
 }

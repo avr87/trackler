@@ -4,11 +4,11 @@ import Header from "./Header";
 
 export default function App() {
   return (
-    <div className="App" id="app">
-      <Navbar />
-      <Header />
-      
-      
+    <div className="container">
+      <div  id="app">
+        <Navbar />
+        <Header />
+      </div>
     </div>
   );
 }

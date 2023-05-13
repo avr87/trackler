@@ -5,19 +5,17 @@ header {
   background-repeat: no-repeat;
   background-position: -10% 50%;
 }
-header .boxes {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 40px 120px;
-}
-header .box-1 {
+
+header .left-box {
   text-align: left;
-  width: 532px;
+  
+  margin-left: 30px;
+  padding:0px 80px 30px 22px;
 }
 .coaching {
   background: linear-gradient(
     91.03deg,
-    #e9565b 10.62%,
+    #3c0709 10.62%,
     #cf4473 89.38%,
     #af2e92 140.2%
   );
@@ -26,20 +24,21 @@ header .box-1 {
   background-clip: text;
   text-emphasis-color: transparent;
 }
-header .box-1 h1 {
+.title{
+  margin: 70px 0px 50px 0px;
+}
+header .left-box h1 {
   height: 120px;
-  margin-top: 70px;
   font-weight: 700;
   font-size: 50px;
   line-height: 1.2;
 }
 
-header .box-1 p {
+header .left-box p {
   height: 120px;
   font-weight: 400;
   font-size: 22px;
   line-height: 1.6;
-  margin-bottom: 50px;
 }
 
 .btn-gratis {
@@ -109,13 +108,15 @@ header .box-1 p {
   color: transparent;
 }
 
-header .box-2 {
+header .right-box {
   background-image: url("./womanwithlaptop.png");
   background-repeat: no-repeat;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 20px;
-  width: 567px;
-  height: 511px;
+  background-size: 80%;
+  height: 551px;
+  margin-top: 30px;
+  
 }
 .green-tick {
   border: 1px solid #19b316;
@@ -134,13 +135,13 @@ header .box-2 {
   line-height: 1.4;
 }
 
-.text-box1 {
-  position: fixed;
-  width: 261px;
+.text-box1 p {
+  position: absolute;
+  width: 221px;
   height: 100px;
-  left: 390px;
-  top: 30px;
-  padding: 20px 58px 20px 16px;
+  left: 360px;
+  top: 25px;
+  padding: 20px 40px 20px 16px;
   font-size: 12px;
   font-weight: 400;
   line-height: 15px;
@@ -152,22 +153,22 @@ header .box-2 {
   position: absolute;
   width: 74px;
   height: 74px;
-  left: 608px;
-  top: 10px;
+  left: 550px;
+  top: 0px;
 }
 .screenshot-todo {
   position: absolute;
   width: 74px;
   height: 74px;
-  left: 337px;
-  top: 134px;
+  left: 310px;
+  top: 125px;
 }
 .screenshot-forms {
   position: absolute;
   width: 74px;
   height: 74px;
-  left: 452px;
-  bottom: 140px;
+  left: 420px;
+  bottom: 186px;
 }
 .plus-button {
   display: block;
@@ -186,8 +187,8 @@ header .box-2 {
   position: absolute;
   width: 261px;
   height: 73px;
-  left: 185px;
-  bottom: 20px;
+  left: 145px;
+  bottom: 110px;
   padding: 20px 23px 23px 24px;
   font-size: 12px;
   font-weight: 400;
@@ -198,9 +199,8 @@ header .box-2 {
 }
 .profileCaroline {
   position: absolute;
-  position: absolute;
   width: 74px;
   height: 74px;
-  left: 135px;
-  top: 450px;
+  left: 105px;
+  top: 410px;
 }
